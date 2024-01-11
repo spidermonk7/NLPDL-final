@@ -8,6 +8,8 @@ This is a repository for my NLPDL course final project.
 ## Quick start
 You should only consider 2 file: ***main.py*** and ***retune_mian.py***.
 
+
+### Tune your model for the first time
 If you want to tune a model with lora for the first time \
 ``python main.py --model_name=t5-small --dataset=CNN --peftt=True --adpter=lora ``
 
@@ -33,5 +35,13 @@ Here we offer all the parser configurations and their defaults, just modify them
 | --weight_decay | 0.01 | weight decay |
 | --project_name | NLPDL-FINAL | Project name on W&B |
 
+### Storage Path
+We didn't offer a config for storage_path in the parsing arguments. The default is:
+
+
+**Tune directly:** [  ./results/{data_name}(directly)_{model_name}  ]
+
+
+***Tune with peft:*** [  ./results/{data_name}(PEFT)_{model_name}_{adpter}  ]
 
 
