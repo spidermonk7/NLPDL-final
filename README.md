@@ -14,8 +14,6 @@ If you want to tune a model with lora for the first time \
 ``python main.py --model_name=t5-small --dataset=CNN --peftt=True --adpter=lora ``
 
 
-And for the retuning process, you can use:\
-``python retune_main.py --model_name=t5-small --dataset=CNN --peftt=True --adpter=lora ``
 
 
 Here we offer all the parser configurations and their defaults, just modify them based on your requirements.
@@ -61,4 +59,8 @@ Here are the valid models that u can use. A undefined model/dataset/adpter would
 
 ### Tune your model for the second time
 
+And for the retuning process, you can use:\
+``python retune_main.py --model_name=t5-small --dataset=CNN --peftt=True --adpter=lora ``
+
+Also, we offer all the parser configurations and their defaults for retuning, just modify them based on your requirements.
 
