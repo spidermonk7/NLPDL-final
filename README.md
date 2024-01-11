@@ -64,3 +64,18 @@ And for the retuning process, you can use:\
 
 Also, we offer all the parser configurations and their defaults for retuning, just modify them based on your requirements.
 
+| config | default | --help |
+|:------|:-------:|------:|
+| --model_name | t5-small | model name |
+| --peftt | True | Implement PEFT or not |
+| --adpter | lora | Which peft method |
+| --Debugging | False | If debugging or running |
+| --data_name | WMT | The dataset |
+| --r | 32 | hidden size of lora |
+| --report_to_wandb | True | Report to wandb or not |
+| --epochs | 3 | num of epochs |
+| --batch_size | 16 | batch size |
+| --lr | 1e-5 | leaerning rate |
+| --weight_decay | 0.01 | weight decay |
+| --project_name | NLPDL-FINAL | Project name on W&B |
+
