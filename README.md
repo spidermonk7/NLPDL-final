@@ -39,9 +39,26 @@ Here we offer all the parser configurations and their defaults, just modify them
 We didn't offer a config for storage_path in the parsing arguments. The default is:
 
 
-**Tune directly:** [  ./results/{data_name}(directly)_{model_name}  ]
+**Tune directly:** [  ./results/{data_name}(directly)\_{model_name}  ]
 
 
-***Tune with peft:*** [  ./results/{data_name}(PEFT)_{model_name}_{adpter}  ]
+***Tune with peft:*** [  ./results/{data_name}(PEFT)\_{model_name}\_{adpter}  ]
+
+
+### valid models, datasets and adapters
+Here are the valid models that u can use. A undefined model/dataset/adpter would raise an error.
+
+**model\_name:** t5-small, t5-base, t5-large, facebook/bart-base
+
+**dataset\_name:** CNN, BBC, WMT 
+
+**adpter:** lora, adalora, IA3
+
+**Attention: Please don't use IA3 on Bart.**
+
+
+
+
+### Tune your model for the second time
 
 
