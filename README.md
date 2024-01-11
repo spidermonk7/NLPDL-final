@@ -32,6 +32,7 @@ Here we offer all the parser configurations and their defaults, just modify them
 | --lr | 1e-5 | leaerning rate |
 | --weight_decay | 0.01 | weight decay |
 | --project_name | NLPDL-FINAL | Project name on W&B |
+| --seed | 2023 | random seed |
 
 ### Storage Path
 We didn't offer a config for storage_path in the parsing arguments. The default is:
@@ -78,4 +79,9 @@ Also, we offer all the parser configurations and their defaults for retuning, ju
 | --lr | 1e-5 | leaerning rate |
 | --weight_decay | 0.01 | weight decay |
 | --project_name | NLPDL-FINAL | Project name on W&B |
+| --seed | 2023 | random seed |
+| --checkpoint | 5385 | checkpoint for tuned model |
+
+
+
 
