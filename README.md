@@ -6,6 +6,14 @@ This is a repository for my NLPDL course final project.
 <you might add a picture here>
 
 ## Quick start
+
+First of all, set up the environments with:
+
+``pip install -r requirements.txt ``
+
+
+
+
 You should only consider 2 file: ***main.py*** and ***retune_mian.py***.
 
 
@@ -83,5 +91,6 @@ Also, we offer all the parser configurations and their defaults for retuning, ju
 | --checkpoint | 5385 | checkpoint for tuned model |
 
 
+You should check if your model\_name and checkpoint are matched(exist). And we have only implemented 1 peft method---LoRa for retuning, so please don't call anyother adapters.
 
 
