@@ -19,7 +19,7 @@ If you want to tune a model with lora for the first time \
 Here we offer all the parser configurations and their defaults, just modify them based on your requirements.
 
 | config | default | --help |
-|:------|:-------:|------:|
+|:------:|:-------:|:------:|
 | --model_name | t5-small | model name |
 | --peftt | True | Implement PEFT or not |
 | --adpter | lora | Which peft method |
@@ -65,7 +65,7 @@ And for the retuning process, you can use:\
 Also, we offer all the parser configurations and their defaults for retuning, just modify them based on your requirements.
 
 | config | default | --help |
-|:------|:-------:|------:|
+|:------:|:-------:|:------:|
 | --model_name | t5-small | model name |
 | --peftt | True | Implement PEFT or not |
 | --adpter | lora | Which peft method |
