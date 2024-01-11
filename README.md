@@ -1,5 +1,5 @@
 # NLPDL-final: Can we teach a model twice?
-This is a repository for my NLPDL course final project.
+This is a repository for my NLPDL course final project. In the project we try to 'teach' the T5 model twice(Fine-tuning it twice on different datasets.) Check **report.pdf** for more infos about experimental design and results.
 
 ![DALL·E 2024-01-11 20 09 29 - A whimsical and metaphorical illustration representing the concept 'Can we teach a LLM twice_'  The image depicts a large, friendly-looking robot sitt](https://github.com/spidermonk7/NLPDL-final/assets/98212025/f3d29cc8-f470-423d-b6b5-2dea5c645c8e)
 
